@@ -1,0 +1,84 @@
+/* Login.css */
+
+.container {
+  width: 100%;
+  max-width: 400px;
+}
+
+.card {
+  width: 100%;
+  background-color: #f8f8f8; /* Warna card */
+  padding: 20px;
+  border-radius: 12px; /* Border radius card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 2px solid #ddd; /* Border color input */
+  border-radius: 8px; /* Border radius input */
+  transition: border-color 0.3s ease-in-out;
+  outline: none;
+  color: #333;
+  background-color: #f4f4f4; /* Warna input */
+}
+
+input:focus {
+  border-color: #ff9900; /* Warna input saat focus */
+}
+
+button {
+  background-color: #6164c1; /* Warna button */
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 8px; /* Border radius button */
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #9c9ed7; /* Warna button saat hover */
+}
+
+  
+  .error{
+    border-left-color: #d9534f !important; 
+    background-color: rgba(217, 83, 79, 0.1) !important; 
+    width:80%;
+    background-color: #ffffff;
+    padding:20px;
+    border:1px solid #eee;
+    border-left-width:5px;
+    border-radius: 3px;
+    margin:10px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color:#d9534f; 
+  }
+  
+  .success{
+    border-left-color: #299122  !important; 
+    background-color: rgba(217, 83, 79, 0.1) !important; 
+    width:80%;
+    background-color: #d4f1cb !important;
+    padding:20px;
+    border:1px solid #eee;
+    border-left-width:5px;
+    border-radius: 3px;
+    margin:10px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color:#8b8080; 
+  }
